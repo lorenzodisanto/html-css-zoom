@@ -33,8 +33,19 @@ img {
 header {
   background-color: black;
   height: var(--header-height);
+  text-align: end;
+  padding-top: 10px;
 
-  border: 1px dashed white;
+  /* border: 1px dashed white; */
+}
+
+header span {
+  background-color: #4a4a4a;
+  font-size: 1rem;
+  padding: 4px;
+  margin: 3px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 /* MAIN */
